@@ -1,0 +1,24 @@
+{
+  "name": "arxiv_search",
+  "description": "Pulls out the relevant top 3 research paper abstracts",
+  "parameters": {
+    "query": {
+      "description": "User Question for which we have to pull relevant papers abstract",
+      "required": "False",
+      "type": "string"
+    }
+  },
+  "requireConfirmation": "DISABLED"
+},
+{
+  "name": "web_search",
+  "description": "Pull latest news with regarding to the user query",
+  "parameters": {
+    "query": {
+      "description": "User Question for which we have to pull relevant news",
+      "required": "False",
+      "type": "string"
+    }
+  },
+  "requireConfirmation": "DISABLED"
+}
