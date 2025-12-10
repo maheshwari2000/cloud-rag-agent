@@ -6,15 +6,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system using AWS 
 
 ## Architecture
 
-```
-User Query → Streamlit (EC2) → Bedrock Agent → Lambda Tools → S3 Vectors/DynamoDB
-                                                ↓
-                                          Web Search Tool
-                                                ↓
-                                        Bedrock Summarization
-                                                ↓
-                                          Response to User
-```
+![Cloud Rag Application](Cloud650.jpeg)
 
 ## AWS Resources
 
