@@ -104,7 +104,7 @@ External URL: http://ec2-xx-xxx-xxx-xxx.compute-1.amazonaws.com:8501
 - Lambda function:
   - Searches vector embeddings in `kaggle-arxiv-vector-bucket`
   - Retrieves paper metadata from DynamoDB table `arxiv_papers`
-  - Fetches full paper content from `kaggle-arxiv-dataset`
+  - Fetches research paper content from `kaggle-arxiv-dataset`
 
 ### 3. Enhancement Phase
 - External web search tool provides additional context
