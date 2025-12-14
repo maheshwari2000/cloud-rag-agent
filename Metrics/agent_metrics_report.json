@@ -1,0 +1,55 @@
+{
+  "overall_performance": {
+    "total_queries": 50,
+    "success_rate": "100.0%",
+    "successful_queries": 50,
+    "failed_queries": 0,
+    "avg_latency_s": 7.049,
+    "p95_latency_s": 8.402,
+    "papers_per_query": 2.9,
+    "total_cost": 0.406476,
+    "cost_per_query": 0.00813,
+    "avg_tokens_per_query": 550.0
+  },
+  "latency_breakdown": {
+    "minimum_ms": 5228.0,
+    "median_s": 6.925,
+    "p95_s": 8.402,
+    "p99_s": 8.922,
+    "maximum_s": 9.119
+  },
+  "cost_analysis": {
+    "total_input_tokens": 517,
+    "total_output_tokens": 26995,
+    "total_tokens": 27512,
+    "input_cost": 0.001551,
+    "output_cost": 0.404925,
+    "total_cost": 0.406476,
+    "cost_per_1000_queries": 8.1295
+  },
+  "retrieval_quality": {
+    "precision_at_5": 0.376,
+    "recall_at_5": 0.211,
+    "queries_evaluated": 50
+  },
+  "baseline_comparison": {
+    "baseline": {
+      "latency_ms": 45,
+      "precision": 0.42,
+      "recall": 0.31,
+      "cost_per_query": 0.001
+    },
+    "agent": {
+      "latency_ms": 7049.0,
+      "precision": 0.376,
+      "recall": 0.211,
+      "cost_per_query": 0.00813
+    },
+    "improvements": {
+      "precision_improvement_pct": -10.5,
+      "recall_improvement_pct": -32.1,
+      "cost_savings_pct": -713.0
+    }
+  },
+  "timestamp": "2025-12-13T01:54:51.905331"
+}
