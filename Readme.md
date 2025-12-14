@@ -30,6 +30,10 @@ This project implements a Retrieval-Augmented Generation (RAG) system using AWS 
 - **Lambda (RAG) CloudWatch**: `/aws/lambda/rag_summarizer-6yz36`
 - **Lambda (Ingestion) CloudWatch**: `/aws/lambda/data-ingestion`
 
+### Metrics
+
+- Metrics can be accessed through Sagemaker Notebook - 'metrics'
+
 ## Setup Instructions for TAs
 
 ### Prerequisites
